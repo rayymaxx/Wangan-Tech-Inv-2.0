@@ -34,12 +34,45 @@
       </div>
 
       <!-- Mobile Menu -->
-       <ul id="mobile-menu" class="hidden flex-col items-center mt-3 space-y-3 text-white text-sm font-semibold md:hidden bg-black/70 rounded-lg p-4" role="menu" aria-labelledby="manu-btn">
-        <li><a href="#" class="hover:text-amber-400 transition-colors">Wangan Laundry</a></li>
-        <li><a href="#" class="hover:text-amber-400 transition-colors">Internet Services</a></li>
-        <li><a href="#" class="hover:text-amber-400 transition-colors">Phones And Accessories</a></li>
+       <ul id="mobile-menu" class="hidden flex-col items-center mt-3 space-y-3 text-white text-sm font-semibold md:hidden bg-black/70 rounded-lg p-4" role="menu" aria-labelledby="menu-btn">
+        <li><a href="#" class="active:text-amber-400 transition-colors duration-200">Wangan Laundry</a></li>
+        <li><a href="#" class="active:text-amber-400 transition-colors duration-200">Internet Services</a></li>
+        <li><a href="#" class="active:text-amber-400 transition-colors duration-200">Phones And Accessories</a></li>
        </ul>
     </nav>
   </header>
+
+  <!-- Hero Section -->
+   <section class="relative min-h-screen bg-cover bg-center w-full flex flex-col justify-between" style="background-image: url('./assets/images/lightbulb.jpg')">
+
+    <!-- Overlay -->
+     <div class="absolute inset-0 bg-black/40"></div>
+
+     <!-- Hero content -->
+      <div class="relative z-10 flex flex-col justify-center flex-grow text-left text-white px-6 sm:px-12 lg:px-20 pt-20 sm:pt-24">
+        <div>
+          <h3 class="text-5xl sm:text-4xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">From Vision To Ventures</h3>
+          <p class="text-2xl sm:text-xl lg:text-3xl mb-8 max-w-2xl">Making The Future A Reality!</p>
+        </div>
+      </div>
+
+      <!-- Buttons at the bottom -->
+       <div class="relative z-20 px-4 sm:px-6 pb-8 sm:pb-12">
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 lg:gap-8 max-w-6xl mx-auto">
+          <button class="w-full sm:w-auto sm:min-w-[200px] lg:min-w-[240px] h-16 sm:h-18 lg:h-20 flex flex-col items-center justify-center text-amber-400 text-2xl sm:text-lg lg:text-2xl font-semibold border-2 border-amber-400 bg-black/30 py-3 px-4 sm:px-6 rounded-2xl shadow-xl cursor-pointer backdrop-blur-sm transform transition-all duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-amber-400 hover:text-white hover:border-amber-500 active:bg-amber-500 active:text-white">
+            <span class="text-center">Wangan Laundry</span>
+          </button>
+
+          <button class="w-full sm:w-auto sm:min-w-[200px] lg:min-w-[240px] h-16 sm:h-18 lg:h-20 flex flex-col items-center justify-center text-amber-400 text-2xl sm:text-lg lg:text-2xl font-semibold border-2 border-amber-400 bg-black/30 py-3 px-4 sm:px-6 rounded-2xl shadow-xl cursor-pointer backdrop-blur-sm transform transition-all duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-amber-400 hover:text-white hover:border-amber-500 active:bg-amber-500 active:text-white">
+            <span class="text-center">Internet Services</span>
+          </button>
+
+          <button class="w-full sm:w-auto sm:min-w-[200px] lg:min-w-[240px] h-16 sm:h-18 lg:h-20 flex flex-col items-center justify-center text-amber-400 text-2xl sm:text-lg lg:text-2xl font-semibold border-2 border-amber-400 bg-black/30 py-3 px-4 sm:px-6 rounded-2xl shadow-xl cursor-pointer backdrop-blur-sm transform transition-all duration-300 hover:-translate-y-2 hover:scale-105 hover:bg-amber-400 hover:text-white hover:border-amber-500 active:bg-amber-500 active:text-white">
+            <span class="text-center">Phones & Accessories</span>
+          </button>
+        </div>
+       </div>
+   </section>
+   <script src="./assets/js/mobile-menu.js" defer></script>
 </body>
 </html>
