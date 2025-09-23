@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wangan Internet Services</title>
+  <title>Wangan Tech Accessories</title>
   <link rel="icon" type="image/x-icon" href="../assets/images/favicon.jpg">
   <link href="../assets/css/output.css" rel="stylesheet">
 </head>
@@ -13,7 +13,7 @@
       <div class="flex items-center justify-between px-4 sm:px-6 py-3 rounded-lg backdrop-blur-md bg-white/10 dark:bg-white/10 border border-white/30 dark:border-white/30 shadow-md w-full h-14 sm:h-16">
         <!-- Logo -->
         <a href="../index.html" class="text-sm sm:text-xl font-bold text-amber-400">
-          <span class="font-extrabold">Wangan Internet</span>
+          <span class="font-extrabold">Wangan Tech Accessories</span>
         </a>
 
         <!-- Hamburger (mobile only) -->
@@ -46,6 +46,142 @@
     </nav>
   </header>
 
+  <!-- SLIDESHOW -->
+  <section class="relative min-h-screen w-full">
+    <div id="slideshow" class="relative w-full h-screen overflow-hidden">
+
+      <!-- Slides -->
+      <div class="slide absolute inset-0 opacity-100 transition-opacity duration-1000">
+        <img src="../assets/images/internet/internet-1.jpg" class="w-full h-full object-cover" alt="Slide 1">
+        <div class="absolute inset-0 flex flex-col items-center justify-center bg-black/40 text-center px-4">
+          <h2 class="text-2xl sm:text-4xl font-bold text-amber-400 drop-shadow-lg">
+            Fast & Reliable Internet for Everyone
+          </h2>
+          <p class="mt-2 text-white text-sm sm:text-lg max-w-md">
+            Never miss a moment.
+          </p>
+          <a href="#" class="mt-4 bg-amber-400 text-black px-5 py-2 rounded-lg font-semibold hover:bg-amber-300 transition">
+            Book Now
+          </a>
+        </div>
+      </div>
+      <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000">
+        <img src="../assets/images/internet/internet-2.jpg" class="w-full h-full object-cover" alt="Slide 2">
+        <div class="absolute inset-0 flex flex-col items-center justify-center bg-black/40 text-center px-4">
+          <h2 class="text-2xl sm:text-4xl font-bold text-amber-400 drop-shadow-lg">
+            Pocket-friendly packages
+          </h2>
+          <p class="mt-2 text-white text-sm sm:text-lg max-w-md">
+            Affordable plans, reliable speeds, and 24/7 support tailored to your needs.
+          </p>
+          <a href="#" class="mt-4 bg-amber-400 text-black px-5 py-2 rounded-lg font-semibold hover:bg-amber-300 transition">
+            View Plans
+          </a>
+        </div>
+      </div>
+      <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000">
+        <img src="../assets/images/internet/internet-3.jpg" class="w-full h-full object-cover" alt="Slide 3">
+        <div class="absolute inset-0 flex flex-col items-center justify-center bg-black/40 text-center px-4">
+          <h2 class="text-2xl sm:text-4xl font-bold text-amber-400 drop-shadow-lg">
+            Secure and reliable connections
+          </h2>
+          <p class="mt-2 text-white text-sm sm:text-lg max-w-md">
+            Surf the internet all day, everyday.
+          </p>
+          <a href="#" class="mt-4 bg-amber-400 text-black px-5 py-2 rounded-lg font-semibold hover:bg-amber-300 transition">
+            Book Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <button id="prev" class="absolute top-1/2 left-4 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full hover:bg-black/70 z-20">
+        &#10094;
+      </button>
+      <button id="next" class="absolute top-1/2 right-4 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full hover:bg-black/70 z-20">
+        &#10095;
+      </button>
+
+      <!-- Dots -->
+      <div class="absolute bottom-6 w-full flex justify-center space-x-3 z-20">
+        <span class="dot w-3 h-3 bg-white/50 rounded-full cursor-pointer"></span>
+        <span class="dot w-3 h-3 bg-white/50 rounded-full cursor-pointer"></span>
+        <span class="dot w-3 h-3 bg-white/50 rounded-full cursor-pointer"></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="choice" class="min-h-screen pt-24 px-5">
+    <div class="flex flex-col justify-center items-center">
+      <h2 class="text-amber-400 text-2xl sm:text-4xl my-4">Why Choose Us?</h2>
+      <p class="text-white text-base">We're not just an internet provider - we're your digital partner. Here's what makes us different.</p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-5 sm:mt-10">
+      <div class="border border-amber-400 rounded-2xl p-5 flex flex-col justify-center items-center">
+        <p class="text-3xl text-white my-3">⚡ Superfast Speeds</p>
+        <p class="text-base text-gray-400">Stream, browse, and game without buffering.</p>
+      </div>
+      <div class="border border-amber-400 rounded-2xl p-5 flex flex-col justify-center items-center">
+        <p class="text-3xl text-white my-3">💰 Affordable Plans</p>
+        <p class="text-base text-gray-400">Packages that fit every budget.</p>
+      </div>
+      <div class="border border-amber-400 rounded-2xl p-5 flex flex-col justify-center items-center">
+        <p class="text-3xl text-white my-3">📞 24/7 Support</p>
+        <p class="text-base text-gray-400">Always here when you need us.</p>
+      </div>
+      <div class="border border-amber-400 rounded-2xl p-5 flex flex-col justify-center items-center">
+        <p class="text-3xl text-white my-3">📡 Wide Coverage</p>
+        <p class="text-base text-gray-400">Expanding service across Kenya.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="packages" class="min-h-screen pt-24 px-5">
+    <div class="flex flex-col justify-center items-center">
+      <h2 class="text-amber-400 text-2xl sm:text-4xl my-4">Choose the Perfect Plan for You</h2>
+      <p class="text-white text-base">Affordable, reliable, and tailored to your needs. No hidden fees, just fast internet.</p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-5 sm:mt-10">
+      <div class="border border-amber-400 rounded-2xl p-5 flex flex-col justify-center items-center">
+        <p class="text-3xl text-white my-3">Standard Package 😁</p>
+        <ul class="list-disc list-outside ml-6">
+          <li class="text-base text-gray-400">3Mbps</li>
+          <li class="text-base text-gray-400">Perfect for browsing & social media.</li>
+          <li class="text-base text-gray-400">Supports 2 - 3 devices 📱</li>
+        </ul>
+      </div>
+      <div class="border border-amber-400 rounded-2xl p-5 flex flex-col justify-center items-center">
+        <p class="text-3xl text-white my-3">Premium Package 💪</p>
+        <ul class="list-disc list-outside ml-6">
+          <li class="text-base text-gray-400">4Mbps</li>
+          <li class="text-base text-gray-400">Play games online and do so much more.</li>
+          <li class="text-base text-gray-400">Supports 4 - 5 devices 📱</li>
+        </ul>
+      </div>
+      <div class="border border-amber-400 rounded-2xl p-5 flex flex-col justify-center items-center">
+        <p class="text-3xl text-white my-3">Exclusive Package ✅</p>
+        <ul class="list-disc list-outside ml-6">
+          <li class="text-base text-gray-400">6Mbps</li>
+          <li class="text-base text-gray-400">Stream Movies and your favorite shows.</li>
+          <li class="text-base text-gray-400">Supports 6 - 8 devices 📱</li>
+        </ul>
+      </div>
+      <div class="border border-amber-400 rounded-2xl p-5 flex flex-col justify-center items-center">
+        <p class="text-3xl text-white my-3">Business Package 💼</p>
+        <ul class="list-disc list-outside ml-6">
+          <li class="text-base text-gray-400">10Mbps</li>
+          <li class="text-base text-gray-400">Smooth running of your business online.</li>
+          <li class="text-base text-gray-400">Supports 9 - 15 devices 📱</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Keep your original script references -->
   <script src="../assets/js/mobile-menu.js" defer></script>
+  <script src="../assets/js/slideshow.js" defer></script>
 </body>
 </html>
