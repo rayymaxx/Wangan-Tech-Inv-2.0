@@ -111,86 +111,98 @@
     </div>
   </section>
 
-  <section id="categories" class="min-h-screen pt-24 px-5">
-    <div class="flex flex-col justify-center items-center">
-      <h2 class="text-amber-400 text-2xl sm:text-4xl my-4">Explore Our Categories</h2>
-      <p class="text-white text-base">From the latest smartphones to must-have accessories, shop everything you need in one place.</p>
+  <section id="categories" class="min-h-screen pt-24 px-5 relative">
+    <div class="flex flex-col justify-center items-center text-center">
+      <h2 class="text-amber-400 text-2xl sm:text-4xl font-bold my-4 drop-shadow-lg">
+        Explore Our Categories
+      </h2>
+      <p class="text-gray-300 text-base max-w-2xl">
+        From the latest smartphones to must-have accessories, shop everything you need in one place.
+      </p>
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 my-5">
-      <div class="rounded-2xl p-5">
-        <div class="overflow-hidden rounded-2xl">
-          <img src="../assets/images/chargers.jpg" alt="chargers" class="rounded-2xl transform transition-transform duration-300 hover:scale-110 active:scale-110" width="560">
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 my-10">
+      <!-- Category Card -->
+      <div class="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-5 shadow-lg hover:shadow-amber-400/40 transition duration-300 transform hover:-translate-y-2">
+        <div class="overflow-hidden rounded-xl">
+          <img src="../assets/images/chargers.jpg" alt="chargers" class="rounded-xl transform transition duration-500 hover:scale-110" />
         </div>
-        <p class="text-3xl text-white my-3">Chargers & Cables</p>
-        <p class="text-base text-gray-400">Premium fast chargers for smoother experience.</p>
+        <p class="text-2xl text-white font-semibold my-3">Chargers & Cables</p>
+        <p class="text-sm text-gray-400">Premium fast chargers for smoother experience.</p>
         <div onclick='window.location.href="./chargers.html"'>
-          <button class="border border-amber-400 w-full py-3 my-3 text-2xl font-medium text-white bg-black/30 rounded-2xl">
+          <button class="mt-4 w-full py-2 text-lg font-medium text-white border border-amber-400 bg-black/40 rounded-xl hover:bg-amber-400 hover:text-black transition">
             View
           </button>
         </div>
       </div>
-      <div class="rounded-2xl p-5">
-        <div class="overflow-hidden rounded-2xl">
-          <img src="../assets/images/headphones.jpg" alt="headphones" class="rounded-2xl transform transition-transform duration-300 hover:scale-110 active:scale-110" width="560">
+
+      <!-- Repeat for other categories -->
+      <div class="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-5 shadow-lg hover:shadow-amber-400/40 transition duration-300 transform hover:-translate-y-2">
+        <div class="overflow-hidden rounded-xl">
+          <img src="../assets/images/headphones.jpg" alt="headphones" class="rounded-xl transform transition duration-500 hover:scale-110" />
         </div>
-        <p class="text-3xl text-white my-3">Headphones & Earphones</p>
-        <p class="text-base text-gray-400">Private listening, private world.</p>
+        <p class="text-2xl text-white font-semibold my-3">Headphones & Earphones</p>
+        <p class="text-sm text-gray-400">Private listening, private world.</p>
         <div onclick='window.location.href="./headphones.html"'>
-          <button class="border border-amber-400 w-full py-3 my-3 text-2xl font-medium text-white bg-black/30 rounded-2xl">
+          <button class="mt-4 w-full py-2 text-lg font-medium text-white border border-amber-400 bg-black/40 rounded-xl hover:bg-amber-400 hover:text-black transition">
             View
           </button>
         </div>
       </div>
-      <div class="rounded-2xl p-5">
-        <div class="overflow-hidden rounded-2xl">
-          <img src="../assets/images/phone-case.jpg" alt="phone-case" class="rounded-2xl transform transition-transform duration-300 hover:scale-110 active:scale-110" width="560">
+
+      <div class="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-5 shadow-lg hover:shadow-amber-400/40 transition duration-300 transform hover:-translate-y-2">
+        <div class="overflow-hidden rounded-xl">
+          <img src="../assets/images/phone-case.jpg" alt="phone-case" class="rounded-xl transform transition duration-500 hover:scale-110" />
         </div>
-        <p class="text-3xl text-white my-3">Phone Cases</p>
-        <p class="text-base text-gray-400">Walk the city in style.</p>
+        <p class="text-2xl text-white font-semibold my-3">Phone Cases</p>
+        <p class="text-sm text-gray-400">Walk the city in style.</p>
         <div onclick='window.location.href="./phone-cases.html"'>
-          <button class="border border-amber-400 w-full py-3 my-3 text-2xl font-medium text-white bg-black/30 rounded-2xl">
+          <button class="mt-4 w-full py-2 text-lg font-medium text-white border border-amber-400 bg-black/40 rounded-xl hover:bg-amber-400 hover:text-black transition">
             View
           </button>
         </div>
       </div>
-      <div class="rounded-2xl p-5">
-        <div class="overflow-hidden rounded-2xl">
-          <img src="../assets/images/powerbank.jpg" alt="powerbank" class="rounded-2xl transform transition-transform duration-300 hover:scale-110 active:scale-110" width="560">
+
+      <div class="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-5 shadow-lg hover:shadow-amber-400/40 transition duration-300 transform hover:-translate-y-2 flex flex-col h-full">
+        <div class="overflow-hidden rounded-xl">
+          <img src="../assets/images/powerbank.jpg" alt="powerbank" class="w-full h-60 object-cover rounded-xl transform transition duration-500 hover:scale-110" />
         </div>
-        <p class="text-3xl text-white my-3">Powerbank</p>
-        <p class="text-base text-gray-400">Always have backup plan.</p>
+        <p class="text-2xl text-white font-semibold my-3">Powerbanks</p>
+        <p class="text-sm text-gray-400 flex-grow">Always have a backup plan.</p>
         <div onclick='window.location.href="./powerbank.html"'>
-          <button class="border border-amber-400 w-full py-3 my-3 text-2xl font-medium text-white bg-black/30 rounded-2xl">
+          <button class="mt-4 w-full py-2 text-lg font-medium text-white border border-amber-400 bg-black/40 rounded-xl hover:bg-amber-400 hover:text-black transition">
             View
           </button>
         </div>
       </div>
-      <div class="rounded-2xl p-5">
-        <div class="overflow-hidden rounded-2xl">
-          <img src="../assets/images/smartphones.jpg" alt="smartphones" class="rounded-2xl transform transition-transform duration-300 hover:scale-110 active:scale-110" width="560">
+
+      <div class="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-5 shadow-lg hover:shadow-amber-400/40 transition duration-300 transform hover:-translate-y-2 flex flex-col h-full">
+        <div class="overflow-hidden rounded-xl">
+          <img src="../assets/images/smartphones.jpg" alt="smartphones" class="w-full h-60 object-cover rounded-xl transform transition duration-500 hover:scale-110" />
         </div>
-        <p class="text-3xl text-white my-3">Smartphones</p>
-        <p class="text-base text-gray-400">Never miss the news with our awesome smartphones.</p>
+        <p class="text-2xl text-white font-semibold my-3">Smartphones</p>
+        <p class="text-sm text-gray-400 flex-grow">Never miss the news with our awesome smartphones.</p>
         <div onclick='window.location.href="./smartphones.html"'>
-          <button class="border border-amber-400 w-full py-3 my-3 text-2xl font-medium text-white bg-black/30 rounded-2xl">
+          <button class="mt-4 w-full py-2 text-lg font-medium text-white border border-amber-400 bg-black/40 rounded-xl hover:bg-amber-400 hover:text-black transition">
             View
           </button>
         </div>
       </div>
-      <div class="rounded-2xl p-5">
-        <div class="overflow-hidden rounded-2xl">
-          <img src="../assets/images/smartwatch.jpg" alt="smartwatch" class="rounded-2xl transform transition-transform duration-300 hover:scale-110 active:scale-110" width="560">
+
+      <div class="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-5 shadow-lg hover:shadow-amber-400/40 transition duration-300 transform hover:-translate-y-2 flex flex-col h-full">
+        <div class="overflow-hidden rounded-xl">
+          <img src="../assets/images/smartwatch.jpg" alt="smartwatch" class="w-full h-60 object-cover rounded-xl transform transition duration-500 hover:scale-110" />
         </div>
-        <p class="text-3xl text-white my-3">SmartWatch</p>
-        <p class="text-base text-gray-400">Stay updated and available in style all day everyday.</p>
+        <p class="text-2xl text-white font-semibold my-3">Smartwatch</p>
+        <p class="text-sm text-gray-400 flex-grow">Stay updated and available in style all day everyday.</p>
         <div onclick='window.location.href="./smartwatch.html"'>
-          <button class="border border-amber-400 w-full py-3 my-3 text-2xl font-medium text-white bg-black/30 rounded-2xl">
+          <button class="mt-4 w-full py-2 text-lg font-medium text-white border border-amber-400 bg-black/40 rounded-xl hover:bg-amber-400 hover:text-black transition">
             View
           </button>
         </div>
       </div>
-    </div>
   </section>
+
 
   <section id="trending" class="min-h-screen pt-24 px-5">
     <div class="flex flex-col justify-center items-center">
@@ -250,9 +262,6 @@
         <p class="text-base text-gray-400">Boost your efficiency and save your time.</p>
       </div>
     </div>
-    <div class="flex flex-col justify-center items-center mt-8">
-      <button id="openPopup" class="rounded-2xl bg-amber-400 hover:bg-amber-300 px-7 py-5 mx-7 font-semibold text-black active:scale-95 transform transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl cursor-pointer">Contact Us</button>
-    </div> 
     
     <!-- Contact Us Popup -->
     <div id="popup" class="hidden fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50 transition-opacity duration-300">
@@ -313,9 +322,86 @@
     </div>
   </section>
 
+  <!-- Scroll-to-top button (place near end of <body>) -->
+  <button id="scrollTopBtn"
+    class="fixed right-6 top-1/5 -translate-y-1/2 z-50 w-14 h-14 rounded-full bg-amber-400 text-black shadow-lg flex items-center justify-center
+          hover:bg-amber-300 focus:outline-none focus:ring-4 focus:ring-amber-300/40 transition-opacity duration-300"
+    aria-label="Scroll to top" title="Scroll to top">
+    <!-- Up arrow SVG -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+    </svg>
+  </button>
+
+  <!-- Floating Contact Button -->
+  <button id="openPopup" 
+    class="fixed bottom-6 left-6 w-14 h-14 bg-amber-400 rounded-full shadow-lg flex items-center justify-center hover:bg-amber-300 transition duration-300 z-50 animate-bounce">
+    <span class="text-black text-2xl">📞</span>
+  </button>
+
+  <footer class="bg-black border-t border-gray-800 py-10">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 text-gray-400">
+
+      <!-- Brand -->
+      <div>
+        <h3 class="text-amber-400 font-bold text-xl mb-3">Wangan Tech Investments</h3>
+        <p class="text-gray-400 text-sm">
+          Connecting you with fast, reliable, and affordable internet solutions across Kenya.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h4 class="text-gray-200 font-semibold mb-3">Quick Links</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="../index.html" class="hover:text-amber-400">Home</a></li>
+          <li><a href="./internet.html" class="hover:text-amber-400">Internet Services</a></li>
+          <li><a href="./accessories.html" class="hover:text-amber-400">Accessories</a></li>
+          <li><a href="./laundry.html" class="hover:text-amber-400">Laundry</a></li>
+        </ul>
+      </div>
+
+      <!-- Support -->
+      <div>
+        <h4 class="text-gray-200 font-semibold mb-3">Support</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#faq" class="hover:text-amber-400">FAQ</a></li>
+          <li><a href="#contact" class="hover:text-amber-400">Contact Us</a></li>
+          <li><a href="#packages" class="hover:text-amber-400">Packages</a></li>
+          <li><a href="#" class="hover:text-amber-400">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h4 class="text-gray-200 font-semibold mb-3">Get In Touch</h4>
+        <p class="text-sm">📍 Nairobi, Kenya</p>
+        <p class="text-sm">📞 +254 791 177 763</p>
+        <p class="text-sm">✉ info@wangantech.com</p>
+        <div class="flex space-x-4 mt-4 text-amber-400 text-xl">
+          <a href="#" class="hover:text-gray-200">🌐</a>
+          <a href="#" class="hover:text-gray-200">📘</a>
+          <a href="#" class="hover:text-gray-200">🐦</a>
+          <a href="#" class="hover:text-gray-200">📸</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="mt-10 border-t border-gray-800 pt-4 text-center text-sm text-gray-500">
+      © <span id="year"></span> Wangan Tech Investments. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    // auto-update year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
   <!-- Keep your original script references -->
   <script src="../assets/js/mobile-menu.js" defer></script>
   <script src="../assets/js/slideshow.js" defer></script>
+  <script src="../assets/js/scrolltop.js" defer></script>
   <script src="../assets/js/popup.js" defer></script>
 </body>
 </html>
