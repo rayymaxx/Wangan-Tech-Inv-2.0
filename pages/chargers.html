@@ -203,6 +203,35 @@
     </svg>
   </button>
 
+  <style>
+    /* Floating animation */
+    .floating-icon {
+      position: absolute;
+      font-size: 2rem;
+      color: #fbbf24; /* amber-400 */
+      opacity: 0.8;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    /* Random placement */
+    .floating-icon:nth-child(1) { top: 10%; left: 15%; animation-delay: 0s; }
+    .floating-icon:nth-child(2) { top: 20%; left: 70%; animation-delay: 1s; }
+    .floating-icon:nth-child(3) { top: 40%; left: 25%; animation-delay: 2s; }
+    .floating-icon:nth-child(4) { top: 50%; left: 80%; animation-delay: 3s; }
+    .floating-icon:nth-child(5) { top: 75%; left: 10%; animation-delay: 4s; }
+    .floating-icon:nth-child(6) { top: 30%; left: 50%; animation-delay: 5s; }
+    .floating-icon:nth-child(7) { top: 55%; left: 60%; animation-delay: 6s; }
+    .floating-icon:nth-child(8) { top: 85%; left: 40%; animation-delay: 7s; }
+    .floating-icon:nth-child(9) { top: 15%; left: 45%; animation-delay: 7s; }
+    .floating-icon:nth-child(10) { top: 45%; left: 35%; animation-delay: 7s; }
+    .floating-icon:nth-child(11) { top: 35%; left: 85%; animation-delay: 7s; }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+  </style>
+
   <!-- Floating Contact Button -->
   <button id="openPopup" 
     class="fixed bottom-6 left-6 w-14 h-14 bg-amber-400 rounded-full shadow-lg flex items-center justify-center hover:bg-amber-300 transition duration-300 z-50 animate-bounce">
