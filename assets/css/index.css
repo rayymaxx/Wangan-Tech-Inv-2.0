@@ -12,10 +12,10 @@ html {
     scroll-behavior: smooth;
 }
 
-  #scrollTopBtn.show { display: flex; opacity: 1; pointer-events: auto; }
-  #scrollTopBtn.hide { opacity: 0; pointer-events: none; }
+#scrollTopBtn.show { display: flex; opacity: 1; pointer-events: auto; }
+#scrollTopBtn.hide { opacity: 0; pointer-events: none; }
 
-  /* prefer reduced motion: disable transitions/animations */
-  @media (prefers-reduced-motion: reduce) {
-    #scrollTopBtn { transition: none !important; }
-  }
+/* prefer reduced motion: disable transitions/animations */
+@media (prefers-reduced-motion: reduce) {
+#scrollTopBtn { transition: none !important; }
+}
